@@ -1,0 +1,25 @@
+{
+  "name": "startfast",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hello": "./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "@langchain/core": "^0.3.18",
+    "@langchain/groq": "^0.1.2",
+    "@langchain/langgraph": "^0.2.22",
+    "child_process": "^1.0.2",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.6",
+    "zod": "^3.23.8"
+  }
+}
